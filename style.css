@@ -1,0 +1,45 @@
+.head{
+    display: flex;
+    background-color: rgb(105, 141, 182);
+    flex-direction: row;
+    padding: 55px;
+}
+
+.flexContainer{
+    display:flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+}
+
+#d1{
+    background-color: rgb(88, 137, 88);
+    
+}
+
+#d2{
+    background-color: rgb(173, 166, 85);
+}
+
+#d3{
+    background-color: beige;
+}
+
+.foot{
+    display: flex;
+    background-color: rgb(105, 141, 182);
+    flex-direction: row;
+    padding: 55px;
+}
+
+@media (max-width: 800px) {
+   .flexContainer {
+
+        flex-direction: column;
+
+    }
+}
+    
+ 
+    
+  
